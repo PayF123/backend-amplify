@@ -1,0 +1,9 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - nvm install 18
+        - nvm use 18
+        - cd server
+        - npm ci
