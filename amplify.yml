@@ -7,7 +7,7 @@ frontend:
         - nvm use 18
         - cd server
         - npm ci
-artifacts:
-  baseDirectory: server # Required, even for backend-only, points to server directory
-  files:
-    - '**/*'
+  artifacts:
+    baseDirectory: server # Required, even for backend-only, points to server directory
+    files:
+      - '**/*'
